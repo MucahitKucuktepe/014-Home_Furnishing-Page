@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #efefef;
+}
+
+.container {
+  width: 95%;
+  height: auto;
+  border: 0px solid rgb(223, 213, 213);
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  right: 2.5%;
+  background-color: #eeecec;
+  border-radius: 20px;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  padding: 10px 0 10px 2.5%;
+}
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  width: 70%;
+}
+.icon {
+  width: calc((30%) - 20px);
+  padding-left: 150px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  border-radius: 5px;
+  background-color: #eeecec;
+}
+
+#option {
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgba(174, 168, 168, 0.347);
+  font-family: "Bellota", cursive;
+}
+
+.search {
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  height: 45px;
+  width: 300px;
+  background-color: rgba(174, 168, 168, 0.347);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 150px;
+  border-radius: 5px;
+}
+#text {
+  width: 100px;
+  border: none;
+  background-color: rgba(174, 168, 168, 0);
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tel p {
+  margin-left: 24px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: left;
+  padding: 10px;
+  padding-left: 2.55%;
+  margin-top: 10px;
+}
+
+.select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+  height: auto;
+  background-color: rgba(174, 168, 168, 0.347);
+  border-radius: 5px;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.select h4 {
+  width: 200px;
+  display: flex;
+  order: 2;
+  font-family: "Judson", serif;
+}
+.select img {
+  order: 1;
+}
+
+.links {
+  width: 400px;
+  display: flex;
+  gap: 50px;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.links a {
+  text-decoration: none;
+}
+.main1 {
+  width: 100%;
+  height: auto;
+  background-color: #b5b1a5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sofa {
+  background-color: #efefef;
+  width: 800px;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.sofa img {
+  width: 40%;
+}
+.sofa h3 {
+  width: 300px;
+  font-family: "Judson", serif;
+  font-size: x-large;
+  margin: 150px 0 0 30px;
+}
+
+.armchair {
+  width: 400px;
+  height: 350px;
+  background-color: rgba(255, 255, 0, 0.507);
+  border-radius: 20px;
+  background-image: url(./images/armchair.png);
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+}
+.armchair p {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-style: italic;
+}
+
+.main2 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(142, 159, 159);
+  padding-top: 20px;
+}
+
+.main2 h3 {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.catalog {
+  margin: 3%;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 95;
+  justify-content: space-around;
+}
+.living {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.living img {
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+}
+
+.living p {
+  padding: 10px 0 10px 10px;
+}
+
+.kitchen {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.kitchen img {
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+}
+
+.kitchen p {
+  padding: 10px 0 10px 10px;
+}
+
+.bedroom {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+
+.bedroom img {
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+}
+.bedroom p {
+  padding: 10px 0 10px 10px;
+}
+
+.accesories {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.accesories img {
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  border-radius: 20px;
+}
+.accesories p {
+  padding: 10px 0 10px 10px;
+}
+.main3 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(231, 226, 227);
+  padding-top: 20px;
+}
+
+.main3 h3 {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.catalog2 {
+  margin: 3%;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 95;
+  justify-content: space-around;
+}
+
+.beds {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+
+.beds img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+}
+.beds p {
+  padding: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+.linens {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.linens img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+}
+.linens p {
+  padding: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+.carpets {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.carpets img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+}
+.carpets p {
+  padding: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.shelf {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.shelf img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+}
+.shelf p {
+  padding: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.dining {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.dining img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+}
+.dining p {
+  padding: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.kids {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  position: relative;
+  box-shadow: 1px 1px 50px rgb(9, 9, 9);
+  border-radius: 20px;
+}
+.kids img {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+}
+.kids p {
+  padding: 10px 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.connect {
+  width: 100%;
+  height: auto;
+  background-color: #aea08d;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.look h2{
+    font-family: 'Bellota', cursive;
+}
+.look span{
+    color: red;
+}
+.leave{
+    font-family: "Judson", serif;
+}
+
+#name{
+    background-color: #aea08d;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+#email{
+    background-color: #aea08d;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+#phone{
+    background-color: #aea08d;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.connect_2 button{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;   
+}
+
+.copright{
+   position: relative;
+   display: flex;
+   gap: 20%;
+   height: 50px;
+   align-items: center;
+}
+.copright p{
+    font-style: italic;
+    width: 40%;
+}
+.policy{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 40%;
+}
+
+
+
+
